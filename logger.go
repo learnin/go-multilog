@@ -38,144 +38,144 @@ func New(loggers ...Logger) *MultiLogger {
 
 func (l *MultiLogger) Fatal(v ...interface{}) {
 	for _, logger := range l.loggers {
-		logger.Fatal(v)
+		logger.Fatal(v...)
 	}
 }
 
 func (l *MultiLogger) Fatalf(format string, v ...interface{}) {
 	for _, logger := range l.loggers {
-		logger.Fatalf(format, v)
+		logger.Fatalf(format, v...)
 	}
 }
 
 func (l *MultiLogger) Fatalln(v ...interface{}) {
 	for _, logger := range l.loggers {
-		logger.Fatalln(v)
+		logger.Fatalln(v...)
 	}
 }
 
 func (l *MultiLogger) Panic(v ...interface{}) {
 	for _, logger := range l.loggers {
-		logger.Panic(v)
+		logger.Panic(v...)
 	}
 }
 
 func (l *MultiLogger) Panicf(format string, v ...interface{}) {
 	for _, logger := range l.loggers {
-		logger.Panicf(format, v)
+		logger.Panicf(format, v...)
 	}
 }
 
 func (l *MultiLogger) Panicln(v ...interface{}) {
 	for _, logger := range l.loggers {
-		logger.Panicln(v)
+		logger.Panicln(v...)
 	}
 }
 
 func (l *MultiLogger) Print(v ...interface{}) {
 	for _, logger := range l.loggers {
-		logger.Print(v)
+		logger.Print(v...)
 	}
 }
 
 func (l *MultiLogger) Printf(format string, v ...interface{}) {
 	for _, logger := range l.loggers {
-		logger.Printf(format, v)
+		logger.Printf(format, v...)
 	}
 }
 
 func (l *MultiLogger) Println(v ...interface{}) {
 	for _, logger := range l.loggers {
-		logger.Println(v)
+		logger.Println(v...)
 	}
 }
 
 func (l *MultiLogger) Debugf(format string, v ...interface{}) {
 	for _, logger := range l.loggers {
-		logger.Debugf(format, v)
+		logger.Debugf(format, v...)
 	}
 }
 
 func (l *MultiLogger) Infof(format string, v ...interface{}) {
 	for _, logger := range l.loggers {
-		logger.Infof(format, v)
+		logger.Infof(format, v...)
 	}
 }
 
 func (l *MultiLogger) Warnf(format string, v ...interface{}) {
 	for _, logger := range l.loggers {
-		logger.Warnf(format, v)
+		logger.Warnf(format, v...)
 	}
 }
 
 func (l *MultiLogger) Warningf(format string, v ...interface{}) {
 	for _, logger := range l.loggers {
-		logger.Warningf(format, v)
+		logger.Warningf(format, v...)
 	}
 }
 
 func (l *MultiLogger) Errorf(format string, v ...interface{}) {
 	for _, logger := range l.loggers {
-		logger.Errorf(format, v)
+		logger.Errorf(format, v...)
 	}
 }
 
 func (l *MultiLogger) Debug(v ...interface{}) {
 	for _, logger := range l.loggers {
-		logger.Debug(v)
+		logger.Debug(v...)
 	}
 }
 
 func (l *MultiLogger) Info(v ...interface{}) {
 	for _, logger := range l.loggers {
-		logger.Info(v)
+		logger.Info(v...)
 	}
 }
 
 func (l *MultiLogger) Warn(v ...interface{}) {
 	for _, logger := range l.loggers {
-		logger.Warn(v)
+		logger.Warn(v...)
 	}
 }
 
 func (l *MultiLogger) Warning(v ...interface{}) {
 	for _, logger := range l.loggers {
-		logger.Warning(v)
+		logger.Warning(v...)
 	}
 }
 
 func (l *MultiLogger) Error(v ...interface{}) {
 	for _, logger := range l.loggers {
-		logger.Error(v)
+		logger.Error(v...)
 	}
 }
 
 func (l *MultiLogger) Debugln(v ...interface{}) {
 	for _, logger := range l.loggers {
-		logger.Debugln(v)
+		logger.Debugln(v...)
 	}
 }
 
 func (l *MultiLogger) Infoln(v ...interface{}) {
 	for _, logger := range l.loggers {
-		logger.Infoln(v)
+		logger.Infoln(v...)
 	}
 }
 
 func (l *MultiLogger) Warnln(v ...interface{}) {
 	for _, logger := range l.loggers {
-		logger.Warnln(v)
+		logger.Warnln(v...)
 	}
 }
 
 func (l *MultiLogger) Warningln(v ...interface{}) {
 	for _, logger := range l.loggers {
-		logger.Warningln(v)
+		logger.Warningln(v...)
 	}
 }
 
 func (l *MultiLogger) Errorln(v ...interface{}) {
 	for _, logger := range l.loggers {
-		logger.Errorln(v)
+		logger.Errorln(v...)
 	}
 }
